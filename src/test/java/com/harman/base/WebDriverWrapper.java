@@ -16,7 +16,8 @@ public class WebDriverWrapper {
 
 	@BeforeMethod
 	public void setup() {
-		String browserName = "edge";
+
+		String browserName = "ch";
 
 		if (browserName.equalsIgnoreCase("edge")) {
 			WebDriverManager.edgedriver().setup();
@@ -31,9 +32,6 @@ public class WebDriverWrapper {
 			driver = new ChromeDriver();
 		}
 
-		
-
-		
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
 
