@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="9543" started-at="2022-04-20T13:14:22 IST" finished-at="2022-04-20T13:14:32 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="9543" started-at="2022-04-20T13:14:22 IST" finished-at="2022-04-20T13:14:32 IST">
+      <class name="com.harman.test.LoginUserInterfaceTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.harman.test.LoginUserInterfaceTest@2de8284b]" name="setup" is-config="true" duration-ms="8615" started-at="2022-04-20T13:14:22 IST" finished-at="2022-04-20T13:14:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="ValidatetitleTest()[pri:0, instance:com.harman.test.LoginUserInterfaceTest@2de8284b]" name="ValidatetitleTest" duration-ms="16" started-at="2022-04-20T13:14:31 IST" finished-at="2022-04-20T13:14:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidatetitleTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.harman.test.LoginUserInterfaceTest@2de8284b]" name="teardown" is-config="true" duration-ms="886" started-at="2022-04-20T13:14:31 IST" finished-at="2022-04-20T13:14:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.harman.test.LoginUserInterfaceTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
